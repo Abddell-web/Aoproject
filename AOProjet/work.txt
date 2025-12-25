@@ -1,0 +1,27 @@
+LDX #$2000       
+LDY #$2100        
+LDS #$3FFF         
+LDU #$2200 
+LDA #$12           
+LDB #$34         
+LDD #$5678       
+STA >$0000 
+STB >$0001
+STD >$0003        
+STX <$05    
+STY >$0007          
+STS <$09           
+STU >$000B                    
+ADCA #$05        
+ADCB >$0001         
+LSLA                 
+LSLB                 
+LSRA                
+LSRB 
+INCA
+INCB
+DECA
+DECB
+ROLA
+ROLB
+END
